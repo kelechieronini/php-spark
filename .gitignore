@@ -1,2 +1,43 @@
+# Dependency directories
+vendor/
+
+# Phalcon-specific directories
+cache/
+public/phalcon/
+
+# Environment files
 .env
-.phpc
+.env.local
+.env.*.local
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Compiled and bundled files
+*.phpc
+*.phar
+
+# Logs and cache files
+*.log
+*.cache
+
+# Configuration files
+config/config.php
+config/services.php
+
+# Sensitive information
+app/config/config.ini
+app/config/config.secret.ini
+
+# Temporary files
+*.tmp
+*.temp
+
+# Composer-related files
+composer.lock
+
+# Operating System files
+Thumbs.db
+.DS_Store
+
